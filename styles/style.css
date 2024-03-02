@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
-
 }
 
 :root {
@@ -286,4 +285,79 @@ input[type="text"] {
 .box-3 img {
     max-height: 300px;
     border-radius: 1rem;
+}
+
+
+/* choose-us-content */
+.choose-us-content {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.choose-us-content-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-text-color);
+}
+
+.choose-us-content-description {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--paragraph-text-color);
+}
+
+
+/* choose us section */
+
+.card {
+    padding: 0.75rem 1rem;
+    padding: 1rem;
+    max-width: 30rem;
+    max-height: 18rem;
+    max-height: min-content;
+}
+
+.card svg {
+    margin-bottom: 0.5rem;
+}
+
+.card h3 {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: var(--paragraph-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.card-1 {
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-us-card-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

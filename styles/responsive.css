@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+    
 
     nav ul {
         flex-direction: column;
@@ -31,5 +32,10 @@
     .box-2,
     .box-3 {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-us-card-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
