@@ -1,9 +1,5 @@
 @media screen and (max-width:576px) {
 
-    nav {
-        margin-top: 24px;
-    }
-
     nav ul {
         /* display: flex; */
         flex-direction: column;
@@ -15,12 +11,21 @@
         display: block;
     }
 
+    .banner-section {
+        height: auto;
+    }
+
     .banner-section div>div {
         flex-direction: column;
     }
 
     .banner-container h3 {
         font-size: 2rem;
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
+    }
+
+    .popular-section {
+        flex-direction: column;
+        gap: 5px;
     }
 }
