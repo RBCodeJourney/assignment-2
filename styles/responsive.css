@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+
+    nav {
+        margin-top: 24px;
+    }
+
+    nav ul {
+        /* display: flex; */
+        flex-direction: column;
+        display: none;
+        top: -100%;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .banner-section div>div {
+        flex-direction: column;
+    }
+
+    .banner-container h3 {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+}

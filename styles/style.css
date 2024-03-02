@@ -1,5 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Mulish", sans-serif;
+
+}
+
+:root {
+    --primary-color: #FF5400;
+    --primary-text-color: #131318;
+    --paragraph-text-color: #131318b3;
+}
+
+
+
+/* header style  */
+
+nav {
+    display: flex;
+    width: auto;
+    /* height: 80px; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 5px 5px 1px; */
+    max-width: 1440px;
+    margin: 24px auto;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-text-color);
+}
+
+.nav-title span,
+nav ul span {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #424242;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav ul li {
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+.menu-btn {
+    display: none;
+}
+
+/* main section */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-section {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 100%;
+    height: 500px;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.banner-section>div {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    margin-top: 4rem;
+
+}
+
+.banner-section div>div {
+    background: linear-gradient(180deg, rgba(193, 193, 223, 0.8) 0%, rgba(184, 184, 216, 0) 100%);
+    border-radius: 8px;
+    /* margin-top: 4rem; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.banner-section input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.banner-section div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-container h3 {
+    color: #fff;
+    font-size: 4rem;
+    padding-top: 2rem;
+    font-weight: 800;
+}
+
+.banner-container p {
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.input-container input {
+    border: none;
+    border-radius: 8px;
+}
+
+.input-container {
+    margin-top: 3rem;
+}
+
+.banner-btn {
+    width: 198px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
 }
