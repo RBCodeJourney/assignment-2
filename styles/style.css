@@ -420,6 +420,7 @@ input[type="email"] {
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .img-news-letter img {
@@ -444,4 +445,62 @@ input[type="email"] {
     width: 15rem;
     height: 5rem;
     border: none;
+}
+
+/* footer section  */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-title {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+
+.footer-title h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-text-color);
+    margin-bottom: 1rem;
+}
+
+.footer-title span {
+    color: var(--primary-color);
+}
+
+footer .hr {
+    max-width: 55rem;
+    height: 1px;
+    background-color: #131318;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: var(--paragraph-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer small {
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
