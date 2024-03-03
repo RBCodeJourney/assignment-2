@@ -1,5 +1,5 @@
 @media screen and (max-width:600px) {
-    
+
 
     nav ul {
         flex-direction: column;
@@ -37,5 +37,29 @@
     .choose-us-card-container {
         flex-direction: column;
         align-items: center;
+    }
+
+    .section-news-letter {
+        flex-direction: column;
+    }
+
+    .input-subscribe input[type="text"],
+    input[type="email"] {
+        padding: 1rem 5rem 1rem 1rem;
+    }
+
+    .btn-subscribe {
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
+    .save-card {
+        width: auto;
+        height: auto;
+        font-size: 1rem;
+        padding: .75rem;
+        /* border: none; */
+        text-align: center;
+        top: 40%;
+        left: 40%;
     }
 }
